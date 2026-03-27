@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rugby Bellinzona</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a class="header-logo" href="index.html">
+            <div class="club-initials">RB</div>
+            <span class="club-name">Rugby Bellinzona</span>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="photos.html">Foto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Rugby Bellinzona</h1>
+        <p>Benvenuti nel sito ufficiale del Rugby Bellinzona – passione, spirito di squadra e fair play.</p>
+        <a href="photos.html" class="btn">Guarda le Foto</a>
+    </section>
+
+    <main>
+        <h2 class="section-title">Chi siamo</h2>
+        <div class="about-grid">
+            <div class="card">
+                <h3>Il Club</h3>
+                <p>Rugby Bellinzona è una società sportiva con sede a Bellinzona, nel Canton Ticino. Promuoviamo il rugby a tutti i livelli, dai giovani agli adulti, con un forte spirito di comunità.</p>
+            </div>
+            <div class="card">
+                <h3>La Squadra</h3>
+                <p>La nostra squadra partecipa ai campionati regionali e nazionali con dedizione e determinazione. Ogni giocatore porta il proprio contributo sul campo e fuori.</p>
+            </div>
+            <div class="card">
+                <h3>Allenamenti</h3>
+                <p>Gli allenamenti si svolgono regolarmente durante la settimana. Tutti i nuovi giocatori sono i benvenuti, indipendentemente dall'esperienza.</p>
+            </div>
+        </div>
+
+        <h2 class="section-title">Contatti</h2>
+        <div class="card" style="max-width: 480px;">
+            <p>Per informazioni, contattaci via email o seguici sui social media.</p>
+            <br>
+            <p><strong>Email:</strong> <a href="mailto:info@rugbybellinzona.ch">info@rugbybellinzona.ch</a></p>
+            <p><strong>Sede:</strong> Bellinzona, Canton Ticino, Svizzera</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Rugby Bellinzona. Tutti i diritti riservati.</p>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>

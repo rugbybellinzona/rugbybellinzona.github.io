@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foto – Rugby Bellinzona</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a class="header-logo" href="index.html">
+            <div class="club-initials">RB</div>
+            <span class="club-name">Rugby Bellinzona</span>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="photos.html" class="active">Foto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="page-header">
+        <h1>Galleria Foto</h1>
+        <p>Immagini dalla nostra squadra, partite e allenamenti</p>
+    </div>
+
+    <main>
+        <h2 class="section-title">Le nostre foto</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="photos/photo1.svg" alt="Partita in casa">
+                <div class="caption">Partita in casa</div>
+            </div>
+            <div class="gallery-item">
+                <img src="photos/photo2.svg" alt="La squadra">
+                <div class="caption">La squadra</div>
+            </div>
+            <div class="gallery-item">
+                <img src="photos/photo3.svg" alt="Allenamento – goal posts">
+                <div class="caption">Allenamento</div>
+            </div>
+            <div class="gallery-item">
+                <img src="photos/photo4.svg" alt="Campioni">
+                <div class="caption">Campioni!</div>
+            </div>
+            <div class="gallery-item">
+                <img src="photos/photo5.svg" alt="Mischia">
+                <div class="caption">Mischia</div>
+            </div>
+            <div class="gallery-item">
+                <img src="photos/photo6.svg" alt="In azione">
+                <div class="caption">In azione</div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Rugby Bellinzona. Tutti i diritti riservati.</p>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
