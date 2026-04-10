@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rugby Bellinzona</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a class="header-logo" href="index.html">
+            <div class="club-initials">RB</div>
+            <span class="club-name">Rugby Bellinzona</span>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="photos.html">Foto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Rugby Bellinzona</h1>
+        <!-- <p>unità, umiltà, rispetto</p> -->
+        <p>Unità, Umiltà, Rispetto</p>
+        <!-- <a href="photos.html" class="btn">Guarda le Foto</a> -->
+    </section>
+
+    <main>
+        <h2 class="section-title">Chi siamo</h2>
+        <div class="about-grid">
+            <div class="card">
+                <h3>Il Club</h3>
+                <p>Rugby Bellinzona è una società sportiva con sede a Bellinzona, nel Canton Ticino.
+                Promuoviamo il rugby a tutti i livelli, dai giovani agli adulti.</p>
+            </div>
+            <div class="card">
+                <h3>La Squadra</h3>
+                <p>La nostra prima squadra (dai 16 anni) partecipa alla lega nazionale dilettanti.
+                Abbiamo un settore giovanile aperto a tutti dai 5 fino ai 16 anni.</p>
+
+            </div>
+            <div class="card">
+                <h3>Allenamenti</h3>
+                <p>
+                <ul>
+                    <li>
+                        <strong>Luogo</strong>
+                        : Parco urbano di Bellinzona.
+                    </li>
+                    <li>
+                        <strong>Giorni</strong>
+                        : martedì e giovedì.
+                    </li>
+                    <li>
+                        <strong>Orari giovanile</strong>: 18:00-19:00.
+                    </li>
+                    <li>
+                        <strong>Orari prima squadra</strong>: 19:30-21:30.
+                    </li>
+                </p>
+            </div>
+        </div>
+
+        <h2 class="section-title">Contatti</h2>
+        <div class="card" style="max-width: 480px;">
+            <p>Per informazioni, contattaci via email o seguici sui social media.</p>
+            <br>
+            <p><strong>Contatto:</strong> +41 79 224 80 23</p>
+            <p><strong>Email:</strong> <a href="mailto:rugbybellinzona@gmail.com">rugbybellinzona@gmail.com</a></p>
+            <p><strong>Sede:</strong> 6500 Bellinzona</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Rugby Bellinzona. Tutti i diritti riservati.</p>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
